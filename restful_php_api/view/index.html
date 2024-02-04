@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="question" id="question">
+        <h2 id="title"></h2>
+        <ul>
+            <li>
+                <input type="radio" name="cautraloi" class="cautraloi" id="a">
+                <label id="a_cautraloi" for="a"></label>
+            </li>
+            <li>
+                <input type="radio" name="cautraloi" class="cautraloi" id="b">
+                <label id="b_cautraloi" for="b"></label>
+            </li>
+            <li>
+                <input type="radio" name="cautraloi" class="cautraloi" id="c">
+                <label id="c_cautraloi" for="c"></label>
+            </li>
+            <li>
+                <input type="radio" name="cautraloi" class="cautraloi" id="d">
+                <label id="d_cautraloi" for="d"></label>
+            </li>
+            <input type="hidden" id="caudung">
+            <input type="hidden" id="tongcaudung">
+
+        </ul>
+    </div>
+    <div>
+        <button id="submit_pre">Câu trước đó</button>
+
+        <button id="submit_next">Câu kế tiếp</button>
+
+    </div>
+
+    <div class="show_result">
+        <div id="answersContainer"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

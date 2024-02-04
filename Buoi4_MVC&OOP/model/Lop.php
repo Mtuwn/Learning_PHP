@@ -36,7 +36,6 @@ class Lop
     public function edit($params): void
     {
         $object = new LopObject($params);
-        echo $object->get_lop(), $object->get_ma();
         $sql = "update lop
         set Lop ='{$object->get_lop()}'
         where maLop='{$object->get_ma()}'";
