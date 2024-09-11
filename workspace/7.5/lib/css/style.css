@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 60%;
+}
+
+/* css header */
+.container-head {
+    width: 100%;
+    background-color: rgb(148, 147, 145);
+}
+
+.container-head .banner {
+    width: 100%;
+    height: 200px;
+}
+
+.container-head .banner img {
+    width: 100%;
+    height: 99%;
+    object-fit: cover;
+}
+
+.container-head .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.container-head .navbar button {
+    cursor: pointer;
+}
+
+.container-head .navbar button:hover {
+    font-weight: 700;
+}
+
+.custom-button {
+    padding: 12px;
+    margin-right: 5px;
+    border: solid 1px;
+    border-radius: 5%;
+}
+
+/*css left*/
+.container-left {
+    width: 35%;
+    margin-top: 10px;
+    float: left;
+}
+
+/*css main content*/
+/* 
+#comment-content {
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+} */
+
+.home {
+    margin-top: 50px;
+    width: 60%;
+    float: left;
+}
+
+.container-ari1chieu {
+    margin-top: 50px;
+}
+
+#ar1Chieu input {
+    width: 65px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    margin-left: 2px;
+}
+
+#ar1Chieu button {
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
+}
+
+.container-matrix {
+    margin-top: 50px;
+}
+
+.container-matrix p {
+    margin: 20px;
+}
+
+.container-matrix {
+    margin-top: 50px;
+}
+
+/* #associateArray {
+    display: flex;
+    justify-content: center;
+} */
+
+#associateArray input {
+    width: 65px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+#group-button {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#group-button button {
+    margin-left: 20px;
+}
+
+#result-matrix {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    height: 30px;
+}
+
+.container-upload {
+    margin-top: 50px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.content-head {
+    display: inline-block;
+    background-color: #999;
+}
+
+.file-upload {
+    display: none;
+}
+
+.file-name {
+    border: solid 1px;
+    border-radius: 8%;
+    background-color: rgb(243, 243, 243);
+    padding-top: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.content-upload {
+    margin-top: 20px;
+}
+
+.space-name-file {
+    width: 300px;
+    border: solid 1px #999;
+    background-color: rgb(213, 134, 192);
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.container-upload button{
+    margin: 30px 10px 0 0 ;
+}

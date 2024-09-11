@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 60%;
+}
+
+/* css header */
+.container-head {
+    width: 100%;
+    background-color: rgb(148, 147, 145);
+}
+
+.container-head .banner {
+    width: 100%;
+    height: 200px;
+}
+
+.container-head .banner img {
+    width: 100%;
+    height: 99%;
+    object-fit: cover;
+}
+
+.container-head .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.container-head .navbar button{
+    cursor: pointer;
+}
+
+.container-head .navbar button:hover{
+    font-weight: 700;
+}
+
+.custom-button{
+    padding:12px;
+    margin-right: 5px;
+    border: solid 1px;
+    border-radius: 5%;
+}
+
+/*css left*/
+.container-left{
+    width: 35%;
+    margin-top: 10px;
+    float: left;
+}
+
+/*css main content*/
+
+#comment-content{
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.home {
+    margin-top: 50px;
+    width: 60%;
+    float: left;
+}
+
+/*css drawtable*/
+.container-drawtable{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 50px;
+    float: left;
+}
+
+#header-drawtable{
+    margin-top: 20px;
+}
+.container-drawtable label {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.container-drawtable input {
+    margin: 10px 0 10px 0;
+}
+
+.container-drawtable p {
+    margin: 20px 0 10px 0;
+}
+
+.container-drawtable button {
+    margin: 10px 10px 0 0;
+    padding: 0 5px 0 5px;
+}
+
+.container-drawtable .table{
+    display: flex;
+    justify-content: start;
+    
+}
+
+.container-drawtable .table table{
+    margin-top: 20px;
+}
+
+.container-drawtable .table td{
+    border: solid 2px #dbdada;
+    padding: 5px 30px 5px 30px;
+    margin: 0;
+}
+
+
+/* css loop */
+
+.container-loop{
+    width: 60%;
+    margin-top: 50px;
+}
+
+.container-contact{
+    width: 60%;
+    margin-top: 50px;
+}

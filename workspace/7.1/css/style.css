@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.container-head{
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+
+a:hover{
+    font-weight: 700;
+}
+
+.container-left{
+    width: 15%;
+    margin-top: 20px;
+    float: left;
+}
+
+.container-left img{
+    width: 150px;
+}
+
+.container-login{
+    width: 70%;
+    float: left;
+    margin: 50px;
+}
+
+.container-center{
+    width: 70%;
+    margin: 50px;
+    float: left;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+
+.box {
+    width: calc(33.33% - 6.66px);
+    height: 60px;
+    margin: 3px;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: red;
+}
+
+.box3 {
+    background-color: magenta;
+}
+
+.box4 {
+    background-color: yellow;
+}
+
+.box5 {
+    background-color: lime;
+}
+
+.box6 {
+    background-color: gray;
+}
+
+.box7 {
+    background-color: cyan;
+}
+
+.box8 {
+    background-color: lightgray;
+}
+
+.box9 {
+    background-color: orange;
+}
+
+.form-login label {
+    display: inline-block;
+    /*input và label nằm cùng 1 dòng;*/
+    width: 100px;
+    vertical-align: middle;
+    /* căn giữa theo chiều dọc*/
+}
+
+.form-login input {
+    vertical-align: middle;
+}
+
+.group-btn {
+    display: flex;
+    margin: 20px 0 0 50px;
+}
+
+.group-btn button {
+    margin-right: 10px;
+}
+
